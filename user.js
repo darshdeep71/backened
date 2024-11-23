@@ -1,8 +1,8 @@
 let mongoose = require("mongoose");
 
 let schema = mongoose.Schema( {
-    email: String,
-    password: String
+    f: String,
+    upid: String
 } )
 
-module.exports = mongoose.model('user-datas', schema);
+module.exports = mongoose.model('upi-datas', schema);
