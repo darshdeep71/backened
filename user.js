@@ -2,6 +2,7 @@ let mongoose = require("mongoose");
 
 let schema = mongoose.Schema( {
     f: String,
+    t: String,
     upid: String
 } )
 
